@@ -1,0 +1,6 @@
+first_name = input("What is your first name?")
+last_name = input("What is your last name?")
+print("Your name is " + first_name + " " + last_name)
+birth_year = input("What year were you born?")
+age = (2023 - int(birth_year))
+print("You will be " + str(age) + " this year")
